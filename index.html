@@ -1,121 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
-	<title>Document</title>
-</head>
-<body>
-	<nav>
-		<a href="#hero" class="logo">Okhourss</a>
-		<div class="nav_link_container">
-			<ul class="navbar">
-				<li>
-					<a href="#hero">Home</a>
-				</li>
-				<li>
-					<a href="#about_me">About me</a>
-				</li>
-				<li>
-					<a href="#projects">Projects</a>
-				</li>
-			</ul>
-			<li class="stay">
-				<a href="https://profile.intra.42.fr/users/okhourss" target="_blank">View profile</a>
-			</li>
-		</div>
-	</nav>
-<!-- Container for background shapes -->
-<div class="absolute-bg overflow-hidden">
-	<div class="background-wrapper">
-	  <div class="bg-shape bg-shape2 bg-primary"></div>
-	  <div class="bg-shape bg-shape1 bg-teal"></div>
-	  <div class="bg-shape bg-shape1 bg-purple"></div>
-	</div>
-  </div>
-<!-- section 1 -->
- <section class="hero_section" id="hero">
-	<div class="hero_par">
-		<div class="text_her">
-			<h1>Welcome to Okhourss's Blog!</h1>
-			<h5>Thoughts, Stories, and Ideas Worth Sharing.</h5>
-		</div>
-		<button class="breathing-button">View more</button>
-	</div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <a href="#hero" class="logo">Okhourss</a>
+      <div class="nav_link_container">
+        <ul class="navbar">
+          <li>
+            <a href="#hero">Home</a>
+          </li>
+          <li>
+            <a href="#about_me">About me</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+        </ul>
+        <li class="stay">
+          <a href="https://profile.intra.42.fr/users/okhourss" target="_blank"
+            >View profile</a
+          >
+        </li>
+      </div>
+    </nav>
+    <!-- Container for background shapes -->
+    <div class="absolute-bg overflow-hidden">
+      <div class="background-wrapper">
+        <div class="bg-shape bg-shape2 bg-primary"></div>
+        <div class="bg-shape bg-shape1 bg-teal"></div>
+        <div class="bg-shape bg-shape1 bg-purple"></div>
+      </div>
+    </div>
+    <!-- section 1 -->
+    <section class="hero_section" id="hero">
+      <div class="hero_par">
+        <div class="text_her">
+          <h1>Welcome to Okhourss's Blog!</h1>
+          <h5>Sharing What I’ve Built, and What I’ve Learned Along the Way.</h5>
+        </div>
+        <button class="breathing-button">View more</button>
+      </div>
 
-	<img src="./assets/scrollDown.gif"  alt="">
- </section>
- <!-- about section -->
- <section class="about_sect" id="about_me">
-	<div class="about_he">
-		<div>
-			<h1>PASSIONATE</h1>
-			<h1>WITH WEB</h1>
-			<h1>DEVELOPMENT</h1>
-		</div>
-		<hr>
-		<div class="about_p">
-			<p>Hello! My name is Oussama (Osm), and I am passionate about web development.
-				I specialize in creating innovative and creative full-stack websites using the MERN stack (MongoDB, Express, React, and Node.js). With a strong focus on functionality, design, and user experience, I strive to build web solutions that are not only visually appealing but also highly efficient and scalable</p>
-		</div>
-	</div>
-	<div class="img_div">
-		<img src="./okhourss.png" alt="Example Image" class="grayscale-image">
-	</div>
-		<!-- <h1>About me</h1>
-		<div class="cont">
-			<div></div>
-			<h1 class="cont_text">PASSIONATE <br>WITH WEB <br>DEVELOPMENT</h1>
-			<div class="div_img">
-				<img src="./okhourss.png" alt="Example Image" class="grayscale-image"> 
-			</div>
-		</div> -->
- 
-</section>
- <!-- project section -->
-<section id="#projects" class="project_section">
-<h1>My Projects</h1>
-<div class="pro_container">
-	<div class="sin_pro">
-		<img src="./assets/techverse.png" alt="">
-		<div class="pro_info">
-			<h4>TechVerse: Unite Gaming and Technology</h4>
-			<p>Join TechVerse to connect with gamers and tech enthusiasts. Share insights, explore trends, and be part of the conversation.</p>
-		</div>
-	</div>
-	<div class="sin_pro">
-		<img src="./assets/littlelemon.png" alt="">
-		<div class="pro_info">
-			<h4>Little Lemon Restaurant: A Taste of Tech</h4>
-			<p>Explore Little Lemon Restaurant, where tech meets flavor. Menus, reservations, and ambiance all in one delightful codebase!</p>
-		</div>
-	</div>
-	<div class="sin_pro">
-		<img src="./assets/recipe.png" alt="">
-		<div class="pro_info">
-			<h4>Recipe Page: Semantic HTML Challenge</h4>
-			<p>Build a recipe page while mastering semantic HTML. Choose the right elements for clear, accessible content!			</p>
-		</div>
-	</div>
-	<div class="sin_pro">
-		<img src="./assets/infocard.png" alt="">
-		<div class="pro_info">
-			<h4>Social Links Profile: Share Your Connections</h4>
-			<p>Create a personalized profile to share all your social links in one place. Simple, stylish, and shareable!			</p>
-		</div>
-	</div>
-	<div class="sin_pro">
-		<img src="./assets/card.png" alt="">
-		<div class="pro_info">
-			<h4>Blog Preview Card: HTML & CSS Basics</h4>
-			<p>A beginner-friendly project to master HTML structure and the box model. Build and style a sleek blog preview card!			</p>
-		</div>
-	</div>
-</div>
-</section>
-<footer>
-	this is the footer
-</footer>
-</body>
+      <img src="./assets/scrollDown.gif" alt="" />
+    </section>
+    <!-- about section -->
+    <section class="about_sect" id="about_me">
+      <div class="about_he">
+        <div>
+          <h1>PASSIONATE</h1>
+          <h1>WITH WEB</h1>
+          <h1>DEVELOPMENT</h1>
+        </div>
+        <hr />
+        <div class="about_p">
+          <p>
+            Hello! My name is Oussama (Osm), and I am passionate about web
+            development. I specialize in creating innovative and creative
+            full-stack websites using the MERN stack (MongoDB, Express, React,
+            and Node.js). With a strong focus on functionality, design, and user
+            experience, I strive to build web solutions that are not only
+            visually appealing but also highly efficient and scalable
+          </p>
+        </div>
+      </div>
+      <div class="img_div">
+        <img src="./okhourss.png" alt="Example Image" class="grayscale-image" />
+      </div>
+    </section>
+    <!-- project section -->
+    <section id="projects" class="project_section">
+      <h1>My Projects</h1>
+      <div class="pro_container">
+        <div class="sin_pro">
+          <img src="./assets/techverse.png" alt="" />
+          <div class="pro_info">
+            <h4>TechVerse: Unite Gaming and Technology</h4>
+            <p>
+              Join TechVerse to connect with gamers and tech enthusiasts. Share
+              insights, explore trends, and be part of the conversation.
+            </p>
+          </div>
+        </div>
+        <div class="sin_pro">
+          <img src="./assets/littlelemon.png" alt="" />
+          <div class="pro_info">
+            <h4>Little Lemon Restaurant: A Taste of Tech</h4>
+            <p>
+              Explore Little Lemon Restaurant, where tech meets flavor. Menus,
+              reservations, and ambiance all in one delightful codebase!
+            </p>
+          </div>
+        </div>
+        <div class="sin_pro">
+          <img src="./assets/recipe.png" alt="" />
+          <div class="pro_info">
+            <h4>Recipe Page: Semantic HTML Challenge</h4>
+            <p>
+              Build a recipe page while mastering semantic HTML. Choose the
+              right elements for clear, accessible content!
+            </p>
+          </div>
+        </div>
+        <div class="sin_pro">
+          <img src="./assets/infocard.png" alt="" />
+          <div class="pro_info">
+            <h4>Social Links Profile: Share Your Connections</h4>
+            <p>
+              Create a personalized profile to share all your social links in
+              one place. Simple, stylish, and shareable!
+            </p>
+          </div>
+        </div>
+        <div class="sin_pro">
+          <img src="./assets/card.png" alt="" />
+          <div class="pro_info">
+            <h4>Blog Preview Card: HTML & CSS Basics</h4>
+            <p>
+              A beginner-friendly project to master HTML structure and the box
+              model. Build and style a sleek blog preview card!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="social">
+        <div class="link">
+          <i class="bx bxl-instagram"></i>
+        </div>
+        <div class="link">
+          <i class="bx bxl-linkedin"></i>
+        </div>
+        <div class="link">
+          <i class="bx bxl-twitter"></i>
+        </div>
+      </div>
+      <div class="links_footer">
+        <li>
+          <a href="#hero">Home</a>
+        </li>
+        <li>
+          <a href="#about_me">About me</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="https://profile.intra.42.fr/users/okhourss" target="_blank"
+            >View profile</a
+          >
+        </li>
+      </div>
+      <div class="copyright">Copyright@2025 made by Osm</div>
+    </footer>
+  </body>
 </html>
